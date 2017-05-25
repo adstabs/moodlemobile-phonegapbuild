@@ -9,7 +9,7 @@
                     <li ng-repeat="participant in participants">
                         <a class="item item-avatar" mm-split-view-link="{{userStateName}}({courseid: courseid, userid: participant.id})" title="{{participant.fullname}}">
                             <img ng-src="{{participant.profileimageurl}}" alt="{{ 'mm.core.pictureof' | translate:{$a: participant.fullname} }}" mm-external-content>
-                            <mm-format-text>{{participant.fullname}}<input type="text" name="usrname"></mm-format-text>
+                            <mm-format-text>{{participant.fullname}}<input type="text" name="usrname"><input type="submit" value="Submit"></mm-format-text>
                         </a>
                     </li>
                 </ul>
