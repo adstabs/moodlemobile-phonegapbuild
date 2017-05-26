@@ -7,7 +7,7 @@
                 <p ng-if="participants && participants.length == 0" class="padding">{{ 'mma.participants.noparticipants' | translate }}</p>
                 <ul class="list" ng-if="participants && participants.length > 0">
                     <li ng-repeat="participant in participants">
-                        <a class="item item-avatar" mm-split-view-link="{{userStateName}}({courseid: courseid, userid: participant.id})" title="{{participant.fullname}}">
+                        <a class="item item-avatar">
                             <img ng-src="{{participant.profileimageurl}}" alt="{{ 'mm.core.pictureof' | translate:{$a: participant.fullname} }}" mm-external-content>
                             <mm-format-text>{{participant.fullname}}<input type="text" name="usrname"><input type="submit" value="Submit"></mm-format-text>
                         </a>
