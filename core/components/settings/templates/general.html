@@ -1,20 +1,67 @@
-<ion-view view-title="{{ 'mm.settings.language' | translate }}" >
+<ion-view view-title="Attendance" >
     <ion-content mm-state-class>
-        <ul class="list">
-            <li class="item item-input item-select">
-                <div class="input-label" id="mm-settings-languagelabel">
-                    {{ 'mm.settings.language' | translate }}
-                </div>
-                <select ng-model="selectedLanguage" ng-options="code as name for (code, name) in langs" ng-change="languageChanged(selectedLanguage)" aria-labelledby="mm-settings-languagelabel" mm-ios-select-fix>
-                </select>
+         <ul class="list">
+            
+            <li class="item item-divider">
+                <p>Class 7</p>
             </li>
-            <ion-toggle ng-if="rteSupported" ng-model="richTextEditor" ng-change="richTextEditorChanged(richTextEditor)">
-                <p class="item-heading">{{ 'mm.settings.enablerichtexteditor' | translate }}</p>
-                <p>{{ 'mm.settings.enablerichtexteditordescription' | translate }}</p>
-            </ion-toggle>
-            <ion-toggle ng-if="showReport" ng-model="reportInBackground" ng-change="reportChanged(reportInBackground)">
-                <p class="item-heading">{{ 'mm.settings.reportinbackground' | translate }}</p>
-            </ion-toggle>
+            <li class="item item-text-wrap">
+                <h2>Class 7A</h2>
+                <p><a href="http://34.193.134.218/mod/attendance/manage.php?id=385">ATTENDANCE</a></p>
+            </li>
+             <li class="item item-text-wrap">
+                <h2>Class 7B</h2>
+                <p><a href="http://34.193.134.218/mod/attendance/manage.php?id=387">http://34.193.134.218/mod/attendance/manage.php?id=387</a></p>
+            </li>
+             <li class="item item-text-wrap">
+                <h2>Class 7C</h2>
+                <p><a href="http://www.apache.org/licenses/LICENSE-2.0">CLICK ME TO TAKE ATTENDANCE</a></p>
+            </li>
+             <li class="item item-divider">
+                <p>Class 8</p>
+            </li>
+            <li class="item item-text-wrap">
+                <h2>Class 8A</h2>
+                <p><a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+            </li>
+             <li class="item item-text-wrap">
+                <h2>Class 8B</h2>
+                <p><a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+            </li>
+             <li class="item item-text-wrap">
+                <h2>Class 8C</h2>
+                <p><a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+            </li>
+             <li class="item item-divider">
+                <p>Class 9</p>
+            </li>
+            <li class="item item-text-wrap">
+                <h2>Class 9A</h2>
+                <p><a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+            </li>
+             <li class="item item-text-wrap">
+                <h2>Class 9B</h2>
+                <p><a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+            </li>
+             <li class="item item-text-wrap">
+                <h2>Class 9C</h2>
+                <p><a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+            </li>
+             <li class="item item-divider">
+                <p>Class 10</p>
+            </li>
+            <li class="item item-text-wrap">
+                <h2>Class 10A</h2>
+                <p><a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+            </li>
+             <li class="item item-text-wrap">
+                <h2>Class 10B</h2>
+                <p><a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+            </li>
+             <li class="item item-text-wrap">
+                <h2>Class 10C</h2>
+                <p><a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+            </li>
         </ul>
     </ion-content>
 </ion-view>
